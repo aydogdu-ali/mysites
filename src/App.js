@@ -1,12 +1,16 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
+import Router from "./router/Router";
+import Box from '@mui/material/Box';
+
+
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-    </div>
+   <Box sx={{textAlign:"center"}}>
+     <Router/>
+    </Box>
+    
   );
 }
 
